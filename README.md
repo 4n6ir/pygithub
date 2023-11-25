@@ -5,7 +5,7 @@
 ```python
         region = Stack.of(self).region
 
-        censys = _lambda.LayerVersion.from_layer_version_arn(
+        pygithub = _lambda.LayerVersion.from_layer_version_arn(
             self, 'pygithub',
             layer_version_arn = 'arn:aws:lambda:'+region+':070176467818:layer:pygithub:1'
         )
